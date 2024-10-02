@@ -1,0 +1,156 @@
+body{
+	background-image: url("../img/sativa.png");
+}
+
+.jumbotron{
+	background-color: #9E0980;
+	color: white;
+}
+
+.panel-heading{
+	background-color: #9E0980 !important;
+	color: white !important;
+}
+
+.navbar-brand:link, .navbar-brand:visited {
+	color: #9E0980 !important;
+}
+
+.navbar-brand:hover, .navbar-brand:active{
+	color: white !important;
+}
+
+.navbar{
+	background-color: black !important;
+}
+
+#navbar li a:link, #navbar li a:visited{
+	color: white !important;
+}
+
+#navbar  li a:hover,  #navbar li a:active{
+	color: #9E0980 !important;
+}
+
+.dropdown-menu{
+	background-color: #2b2b2b;
+}
+
+.open > a {
+	background-color: #2b2b2b !important;
+}
+
+.btn-primary{
+	background-color: #9E0980 !important;
+	border: none;
+}
+
+.btn-primary:hover {
+	background-color: #2b2b2b !important;
+}
+
+.contenido-articulo, .perfil{
+	background-color: white !important;
+	padding: 2em; 
+}
+
+.sidebar{
+	background-color: white !important;
+}
+
+.sidebar , .gg-elemento{
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.gg-elemento:hover{
+	background-color: #2b2b2b !important;
+	color: #9E0980;
+}
+
+.gg-elemento{
+	color: white;
+}
+
+#gg-entradas{
+background-color: #9E0980;
+}
+
+#gg-comentarios{
+background-color: #0291c4;
+}
+
+#gg-favoritos{
+background-color: #394a66;
+}
+
+.parte_gestor_entrada {
+	background-color: #9E0980 !important;
+	color: white;
+}
+
+.table-striped>tbody>tr:nth-child(odd){
+	color: black;
+}
+
+
+.table-striped>tbody>tr>td{
+	border: none;
+}
+
+
+.table>thead>tr>th{
+	border: none;
+}
+
+tbody:before{
+	content: "-";
+	display: block;
+	line-height: 1em;
+	color: transparent !important;
+}
+
+#button_nueva_entrada{
+	background-color: #0291c4 !important;
+}
+
+#button_nueva_entrada:hover{
+	background-color: #394a66 !important;
+}
+
+.form_nueva_entrada{
+	background-color: white;
+	padding: 2em;
+}
+
+
+.btn_buscar{
+	background-color: black !important;
+	color: white;	
+}
+
+#resultado{
+	background-color: white !important;
+}
+
+.boton_subir{
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+#label_archivo{
+	background-color: #2b2b2b;
+	color: #9E0980;
+	cursor: pointer;
+	padding: 0.5em;
+	width: 100%;
+}
+
+#label_archivo:hover{
+	background-color: #9E0980;
+	color: white;
+}
